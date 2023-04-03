@@ -1,0 +1,113 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url("resources/Minecraft.ttf");
+}
+
+.content {
+  width: 100%;
+  height: 200px;
+  background-image: url("resources/Minecraft.png");
+  color: white;
+  font-family: Minecraft;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  padding: 3%;
+  top: -2.5%;
+  font-size: 1.5vw;
+  background-image: url("resources/grass.png");
+  background-size: 50%;
+}
+
+main {
+  margin: 20% 3%;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: 0% 1%;
+  cursor: url('resources/Stone Shovel.png'),url('resources/Netherite Shovel.png'), default;
+}
+
+figure {
+  background-image: url("resources/Stone.png");
+  background-size: 50%;
+  display: flex;
+  align-items: center;
+  padding: 2.5%;
+}
+
+img{
+  width: 20%;
+  background-image: url("resources/item.png");
+  background-size: 100%;
+}
+
+figcaption {
+  margin-left: 15%;
+  font-size: 2vw;
+}
+
+.tabel {
+  align-items: center;
+  width: 50%;
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  bottom: 0%;
+  font-size: 1.5vw;
+  background-image: url("resources/grass.png");
+  background-size: 50%;
+}
+
+.video{
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  padding: 10px;
+}
+
+iframe{
+  text-align: center;
+  font-size: 30px;
+}
+
+.yt {
+  text-decoration-line: underline;
+  color: #ff0000;
+}
+
+.twitter {
+  text-decoration-line: underline;
+  color: deepskyblue;
+}
+
+tbody {
+  background-image: url("/resources/concrete.jpg");
+}
+
+th {
+  text-align: center;
+  color: #010000;
+  width: 1%;
+  padding: 1% 0%;
+}
+
+td {
+  background-image: url("/resources/Stone.png");
+  padding: 1%;
+}
